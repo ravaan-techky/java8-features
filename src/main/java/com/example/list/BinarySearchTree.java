@@ -49,7 +49,7 @@ public class BinarySearchTree {
 	 * @param value   the value
 	 * @return the binary node
 	 */
-	private static BinaryNode addRecursive(BinaryNode current, Integer value) {
+	private static BinaryNode addRecursive (BinaryNode current, Integer value) {
 		if (current == null) {
 			current = new BinaryNode(value);
 		} else {
